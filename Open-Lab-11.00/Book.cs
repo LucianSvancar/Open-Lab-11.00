@@ -90,6 +90,7 @@ namespace Open_Lab_10._00
             this.author = author;
             this.category = category;
             this.releaseDate = releaseDate;
+            
         }
 
         public override string ToString()

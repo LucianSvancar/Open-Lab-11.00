@@ -50,10 +50,10 @@ namespace Open_Lab_11._00
 
             foreach (var item in BooksList)
             {
-                books = books + item + " ";
+                books = books + item + "\n";
             }
 
-            return String.Format($"Total books: {numberOfBooks} ({books}), Total students: {numberOfStudents} ({students})");
+            return String.Format($"Total books: {numberOfBooks} \n ({books}), Total students: {numberOfStudents} ({students})");
         }
 
     }

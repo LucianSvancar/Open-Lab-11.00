@@ -12,10 +12,10 @@ namespace Open_Lab_10._00
     {
         static void Main(string[] args)
         {
-            Book Math = new Book();
-            Book Chemistry = new Book();
-            Book Biology = new Book();
-            Book Physics = new Book();
+            Book Math = new Book("Matematika v kocke", 120, "Jaroslav Eisler", "Academically",2008 ); 
+            Book Chemistry = new Book("50 Chemistry Ideas You Really Need to Know",360, "Hayley Birch Hardcover ", "Academically", 2015);
+            Book Biology = new Book("Základy biologie a genetiky člověka",244, "Romana Mihalová", "Academically",2021);
+            Book Physics = new Book("Fyzika",284,"Ivan Šantavý", "Academically", 2000);
           
             Library schoolLibrary = new Library();
             schoolLibrary.NumberOfStudents = 2;
